@@ -17,7 +17,7 @@ public class Application {
   public static void main(String... args) {
     SpringApplication.run(Application.class, args);
 
-    SimulationExecutor.execute(DateTime.now().minusMonths(1).toDate(), DateTime.now().toDate());
+    SimulationExecutor.execute(DateTime.now().minusMonths(5).toDate(), DateTime.now().toDate());
   }
 
   @Bean
